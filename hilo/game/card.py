@@ -15,7 +15,7 @@ class Card:
         """
         self.value = 0
 
-    def guess_card(self):
+    def deal(self):
         """Selects a new random card.
         
         Args:

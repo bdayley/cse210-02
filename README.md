@@ -31,3 +31,4 @@ Carina Aguero
 Rob Cox
 Brianna Dayley
 Anamilena Casariego
+Eduardo Pulido
