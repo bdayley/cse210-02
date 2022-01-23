@@ -27,8 +27,8 @@ Card
 		get_value()
 
 # Authors
-Carina Aguero
-Rob Cox
-Brianna Dayley
-Anamilena Casariego
+Carina Aguero\
+Rob Cox\
+Brianna Dayley\
+Anamilena Casariego\
 Eduardo Pulido
