@@ -1,4 +1,4 @@
-from hashlib import new
+# from hashlib import new
 from game.card import Card
 
 
@@ -53,7 +53,7 @@ class Director:
       Args:
          self (Director): An instance of Director.
       """
-
+      self.card.deal()
       print(f"\nThe card is: {self.card.value}")
       self.guess = input("Higher or lower? [h/l] ")
       self.next_card.deal()
@@ -69,8 +69,10 @@ class Director:
       if not self.is_playing:
          return 
 
+      # If the next card is the same as the current card the guess is counted
+      # as incorrect.
       if self.guess == 'h':
-         if self.next_card.value >= self.card.value:
+         if self.next_card.value > self.card.value:
             self.points += 100
          else:
             self.points -= 75
