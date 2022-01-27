@@ -1,9 +1,9 @@
-# cse210-02
+## cse210-02
 
 # Hilo
 Hilo is a game in which the player guesses if the next card drawn by the dealer will be higher or lower than the previous one. Points are won or lost based on whether or not the player guessed correctly.
 
-# Rules
+## Rules
 The player starts the game with 300 points.\
 Individual cards are represented as a number from 1 to 13.\
 The current card is displayed.\
@@ -15,7 +15,7 @@ If a player reaches 0 points the game is over.\
 If a player has more than 0 points they decide if they want to keep playing.\
 If a player decides not to play again the game is over.
 
-# Project Structure
+## Project Structure
 Director\
 	Methods:\
 		start_game()\
@@ -26,9 +26,9 @@ Card\
 	Methods:\
 		get_value()
 
-# Authors
-Carina Aguero\
-Rob Cox\
-Brianna Dayley\
-Anamilena Casariego\
-Eduardo Pulido
+## Authors
+Carina Aguero (agu21022@byui.edu)\
+Rob Cox (cox21008@byui.edu)\
+Brianna Dayley (col04002@byui.edu)\
+Anamilena Casariego (cas21052@byui.edu)\
+Eduardo Pulido (pul21010@byui.edu)
